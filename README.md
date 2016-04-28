@@ -2,6 +2,8 @@
 
 O objetivo da palestra é apresentar os principais conceitos que envolvem geolocalização através da utilização de banco de dados não relacionais, no caso o MongoDB.
 
+O evento será no dia 28/04/2016 (quinta-feira), das 8h00 às 10h00.
+
 ## Contato dos palestrantes:
 
 Renan Johannsen de Paula:

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html ng-app="ifsp">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>IFSP Geolocation</title>
+
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+
+    <main class="main-container" ng-controller="TweetController as tweetCtrl">
+      <md-list ng-init="tweetCtrl.init()">
+        <md-subheader class="md-no-sticky">Tweets</md-subheader>
+
+        <md-list-item class="md-3-line" ng-repeat="tweet in tweetCtrl.tweets">
+          <img ng-src="{{tweet.image}}" class="md-avatar" alt="{{ tweet.twitter }}" />
+
+          <div class="md-list-item-text" layout="column">
+            <h3>{{ tweet.name }} - @{{ tweet.twitter }}</h3>
+            <h4>{{ tweet.message }}</h4>
+            <p>{{ tweet.loc.coordinates }}</p>
+          </div>
+        </md-list-item>
+      </md-list>
+    </main>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/services/tweet-service.js"></script>
+    <script src="/js/controllers/tweet-controller.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "ifsp-geolocation-mongo",
+  "version": "1.0.0",
+  "description": "Geolocalização com MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm install",
+    "start": "DEBUG=ifsp-geolocation:* nodemon --debug ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanJPaula/ifsp-geolocation-mongo.git"
+  },
+  "keywords": [
+    "MongoDB"
+  ],
+  "author": "Renan Johannsen de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanJPaula/ifsp-geolocation-mongo/issues"
+  },
+  "homepage": "https://github.com/RenanJPaula/ifsp-geolocation-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.13",
+    "twit": "^2.2.3"
+  }
+}
