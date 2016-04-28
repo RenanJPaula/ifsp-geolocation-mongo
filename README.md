@@ -4,6 +4,8 @@ O objetivo da palestra é apresentar os principais conceitos que envolvem geoloc
 
 O evento será no dia 28/04/2016 (quinta-feira), das 8h00 às 10h00.
 
+Slides da palestra estão disponíveis [aqui](https://docs.google.com/presentation/d/1LAK_hqxHEpxicpAVnP7tqr01a3cJ5w5e2BsMT-K8HYc/edit?usp=sharing).
+
 ## Contato dos palestrantes:
 
 Renan Johannsen de Paula:
